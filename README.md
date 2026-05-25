@@ -36,4 +36,5 @@ The application simulates a basic retail flow, including:
 
 ---
 **Developed by:** [Mohammed Khalil Sobhi Mansi]
+
 **Status:** UI Update Completed !!!
