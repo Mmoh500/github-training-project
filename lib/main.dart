@@ -11,6 +11,7 @@ void main() {
   cart.addItem(pizza);
   cart.addItem(burger);
   cart.addItem(Item(id: 1, name: "Pizza", price: 35.9, qty: 1));
+  cart.addItem(Item(id: 2, name: "Pizza", price: 35.9, qty: 1));
 
   cart.removeItem(1);
 
