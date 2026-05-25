@@ -39,6 +39,8 @@ class Cart {
     return sum;
   }
 
+
+
   void printCart() {
     print('Cart Items :::');
     if (items.isEmpty) {
@@ -49,9 +51,11 @@ class Cart {
       }
       print('Subtotal = ${subtotal}');
     }
+
   }
 
   void clearCart() {
     items.clear();
   }
+  
 }
