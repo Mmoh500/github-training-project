@@ -4,6 +4,8 @@ class Checkout extends Cart {
   double deliveryFee = 10;
 
   double get tax => subtotal * 0.10;
+
+  
   double get total => subtotal + tax + deliveryFee;
 
   void printInvoice() {

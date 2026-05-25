@@ -51,11 +51,10 @@ class Cart {
       }
       print('Subtotal = ${subtotal}');
     }
-
+    
   }
 
   void clearCart() {
     items.clear();
   }
-  
 }
